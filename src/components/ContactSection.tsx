@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Mail, MessageCircle, Rocket } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const ContactSection = () => {
   const { t } = useLanguage();
@@ -23,9 +24,11 @@ export const ContactSection = () => {
               {t('cta.subtitle')}
             </p>
             
-            <Button variant="outline_white" size="xl" className="mb-8">
-              <Rocket className="w-5 h-5 mr-2" />
-              {t('cta.button')}
+            <Button asChild variant="outline_white" size="xl" className="mb-8">
+              <Link to="/idea-submission">
+                <Rocket className="w-5 h-5 mr-2" />
+                {t('cta.button')}
+              </Link>
             </Button>
           </div>
 
@@ -39,7 +42,7 @@ export const ContactSection = () => {
                 <h3 className="text-xl font-bold mb-2">Email Us</h3>
                 <p className="text-white/80 mb-4">Get a detailed proposal</p>
                 <Button variant="outline_white" size="sm">
-                  hello@vibesi.com
+                  kicoa24@gmail.com
                 </Button>
               </div>
             </Card>

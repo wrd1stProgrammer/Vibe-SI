@@ -20,7 +20,7 @@ export const LanguageToggle = () => {
         onClick={() => setLanguage('ko')}
         className="text-xs font-medium"
       >
-        한국어
+        KOR
       </Button>
     </div>
   );

@@ -62,6 +62,22 @@ const translations = {
     // Footer
     'footer.tagline': 'Turning ideas into reality, one project at a time.',
     'footer.rights': 'All rights reserved.',
+
+    // Submission Page
+    'submission.back': 'Back to Home',
+    'submission.title': 'Submit Your Idea',
+    'submission.name': 'Your Name',
+    'submission.namePlaceholder': 'Enter your name',
+    'submission.email': 'Your Email',
+    'submission.emailPlaceholder': 'Enter your email address',
+    'submission.idea': 'Your Idea',
+    'submission.ideaPlaceholder': 'Describe your idea in detail...',
+    'submission.submit': 'Submit Idea',
+    'submission.plan': 'Choose a Plan',
+    'submission.plan.basic': 'Basic',
+    'submission.plan.professional': 'Professional',
+    'submission.plan.enterprise': 'Enterprise',
+    'submission.select_plan': 'Select a Plan',
   },
   ko: {
     // Navigation
@@ -114,6 +130,21 @@ const translations = {
     // Footer
     'footer.tagline': '한 번에 하나의 프로젝트씩, 아이디어를 현실로 만들어갑니다.',
     'footer.rights': '모든 권리 보유.',
+
+    // Submission Page
+    'submission.back': '홈으로 돌아가기',
+    'submission.title': '아이디어 제출하기',
+    'submission.name': '이름',
+    'submission.namePlaceholder': '이름을 입력하세요',
+    'submission.email': '이메일',
+    'submission.emailPlaceholder': '이메일 주소를 입력하세요',
+    'submission.idea': '아이디어',
+    'submission.ideaPlaceholder': '아이디어를 자세히 설명해주세요...',
+    'submission.submit': '아이디어 제출',
+    'submission.plan': '플랜 선택',
+    'submission.plan.basic': '베이직',
+    'submission.plan.professional': '프로페셔널',
+    'submission.plan.enterprise': '엔터프라이즈',
   }
 };
 

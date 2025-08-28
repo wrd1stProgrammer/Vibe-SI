@@ -69,7 +69,7 @@ export const HeroSection = () => {
               <div className="text-white/60">Weeks to Launch</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">$19-$99</div>
+              <div className="text-3xl font-bold text-white mb-2">$199-$999</div>
               <div className="text-white/60">Affordable Pricing</div>
             </div>
             <div className="text-center">

@@ -20,11 +20,15 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
+                {t('about.vibecoding')}
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 {t('about.description')}
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 {t('about.mission')}
               </p>
+
             </div>
 
             <Card className="p-8 gradient-card shadow-elegant">
@@ -45,7 +49,7 @@ export const AboutSection = () => {
                     <div className="text-sm text-muted-foreground">Weeks</div>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gradient">$19+</div>
+                    <div className="text-3xl font-bold text-gradient">$199+</div>
                     <div className="text-sm text-muted-foreground">Starting</div>
                   </div>
                   <div>

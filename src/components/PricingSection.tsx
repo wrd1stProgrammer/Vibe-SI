@@ -19,11 +19,11 @@ export const PricingSection = () => {
       price: t('pricing.starter.price'),
       description: t('pricing.starter.description'),
       features: [
-        'Basic Design',
-        'Simple Functionality',
-        'Mobile Responsive',
-        '1 Revision Round',
-        'Basic Support'
+        t('pricing.starter.features.basicDesign'),
+        t('pricing.starter.features.simpleFunctionality'),
+        t('pricing.starter.features.mobileResponsive'),
+        t('pricing.starter.features.oneRevisionRound'),
+        t('pricing.starter.features.basicSupport')
       ],
       popular: false,
     },
@@ -32,12 +32,12 @@ export const PricingSection = () => {
       price: t('pricing.pro.price'),
       description: t('pricing.pro.description'),
       features: [
-        'Custom Design',
-        'Advanced Features',
-        'Mobile & Desktop',
-        '3 Revision Rounds',
-        'Priority Support',
-        'SEO Optimization'
+        t('pricing.pro.features.customDesign'),
+        t('pricing.pro.features.advancedFeatures'),
+        t('pricing.pro.features.mobileDesktop'),
+        t('pricing.pro.features.threeRevisionRounds'),
+        t('pricing.pro.features.prioritySupport'),
+        t('pricing.pro.features.seoOptimization')
       ],
       popular: true,
     },
@@ -46,13 +46,13 @@ export const PricingSection = () => {
       price: t('pricing.enterprise.price'),
       description: t('pricing.enterprise.description'),
       features: [
-        'Premium Design',
-        'Complex Features',
-        'Full Responsive',
-        'Unlimited Revisions',
-        'Dedicated Support',
-        'Advanced SEO',
-        'Analytics Setup'
+        t('pricing.enterprise.features.premiumDesign'),
+        t('pricing.enterprise.features.complexFeatures'),
+        t('pricing.enterprise.features.fullResponsive'),
+        t('pricing.enterprise.features.unlimitedRevisions'),
+        t('pricing.enterprise.features.dedicatedSupport'),
+        t('pricing.enterprise.features.advancedSEO'),
+        t('pricing.enterprise.features.analyticsSetup')
       ],
       popular: false,
     },

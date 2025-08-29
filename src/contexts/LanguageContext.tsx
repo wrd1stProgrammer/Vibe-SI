@@ -88,8 +88,8 @@ const translations = {
     // Submission Page
     'submission.back': 'Back to Home',
     'submission.title': 'Submit Your Idea',
-    'submission.name': 'Your Name',
-    'submission.namePlaceholder': 'Enter your name',
+    'submission.name': 'Phone Number',
+    'submission.namePlaceholder': 'Enter your Phone Number',
     'submission.email': 'Your Email',
     'submission.emailPlaceholder': 'Enter your email address',
     'submission.idea': 'Your Idea',
@@ -178,8 +178,8 @@ const translations = {
     // Submission Page
     'submission.back': '홈으로 돌아가기',
     'submission.title': '아이디어 제출하기',
-    'submission.name': '이름',
-    'submission.namePlaceholder': '이름을 입력하세요',
+    'submission.name': '전화번호',
+    'submission.namePlaceholder': '전화번호를 입력하세요',
     'submission.email': '이메일',
     'submission.emailPlaceholder': '이메일 주소를 입력하세요',
     'submission.idea': '아이디어',
